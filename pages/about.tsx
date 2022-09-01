@@ -12,7 +12,7 @@ export default function AboutPage(props: AboutPageProps) {
   const router = useRouter();
   const [postList, setPostList] = useState([]);
 
-  console.log('About query nice 1: ', router.query);
+  console.log('About query nice 121 531315: ', router.query);
   const page = router.query?.page;
 
   useEffect(() => {
