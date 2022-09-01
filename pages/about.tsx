@@ -17,6 +17,7 @@ export default function AboutPage(props: AboutPageProps) {
   console.log('About query lala:  11asdasdadasas11', router.query);
 
   const page = router.query?.page;
+  console.log('first');
 
   useEffect(() => {
     if (!page) return;
