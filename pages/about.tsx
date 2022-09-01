@@ -28,9 +28,10 @@ export default function AboutPage(props: AboutPageProps) {
   console.log('About query lala111:  11asdasdadasas11', router.query);
   console.log('About query lala111:  11asdasdadasas11', router.query);
   console.log('About query lala111:  11asdasdadasas11', router.query);
+  console.log('About query lala111:  11asdasdadasas11', router.query);
 
   const page = router.query?.page;
-  console.log('first1');
+  console.log('first2');
 
   useEffect(() => {
     if (!page) return;
