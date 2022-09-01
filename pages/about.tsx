@@ -12,7 +12,7 @@ export default function AboutPage(props: AboutPageProps) {
   const router = useRouter();
   const [postList, setPostList] = useState([]);
 
-  console.log('About query lala: ', router.query);
+  console.log('About query lala:  111', router.query);
 
   const page = router.query?.page;
 
