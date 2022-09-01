@@ -14,6 +14,7 @@ export default function AboutPage(props: AboutPageProps) {
 
   console.log('About query lala:  11asdasdas11', router.query);
   console.log('About query lala:  11asdasdas11', router.query);
+  console.log('About query lala:  11asdasdas11', router.query);
 
   const page = router.query?.page;
 
