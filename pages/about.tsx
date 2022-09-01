@@ -13,6 +13,7 @@ export default function AboutPage(props: AboutPageProps) {
   const [postList, setPostList] = useState([]);
 
   console.log('About query lala: ', router.query);
+
   const page = router.query?.page;
 
   useEffect(() => {
